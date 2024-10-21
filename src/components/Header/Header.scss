@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  background: black;
+  color: rgb(35, 31, 32);
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; // Отступ между блоками
+  }
+
+  &__img {
+    width: 64px;
+    height: 64px;
+    margin-right: 20px; // Отступ между изображением и текстом
+  }
+
+  &__title {
+    font-family: 'Panton', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0; // Убираем отступ
+  }
+
+  &__text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0; // Убираем отступ
+  }
+
+  &__number {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+}
